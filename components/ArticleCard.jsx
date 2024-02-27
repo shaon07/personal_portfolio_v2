@@ -5,6 +5,7 @@ import CommentIcon from '../components/icons/CommentIcon';
 import styles from '../styles/ArticleCard.module.css';
 
 const ArticleCard = ({ article }) => {
+  console.log("article", article);
   return (
     <a
       href={article.url}
@@ -13,7 +14,7 @@ const ArticleCard = ({ article }) => {
       className={styles.container}
     >
       <Image
-        src={article.cover_image}
+        src={article?.cover_image || "/placeholder.png"}
         alt={article.title}
         width={300}
         height={150}
