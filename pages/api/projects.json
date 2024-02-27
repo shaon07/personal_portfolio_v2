@@ -1,37 +1,98 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "name": "Next Agency",
+    "image": "https://i.ibb.co/q7tjwv5/image.png",
+    "description": "A platform for domain and hosting services providers",
+    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "demo": "https://next-agency-two.vercel.app/"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Next Shop Template",
+    "image": "https://i.ibb.co/wCh7JFs/next-shop.png",
+    "description": "E-commerce website for a shop owners",
+    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "demo": "https://next-shop-inky-rho.vercel.app/"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Next Startup Template",
+    "image": "https://i.ibb.co/rF8fk0W/next-start-up.png",
+    "description": "Startup is free Next.js template for startups and SaaS business websites comes with all the essential pages, components, and sections you need to launch a complete business website",
+    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "demo": "https://next-startup-pn7y.vercel.app/"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "Next E-Commerce Template",
+    "image": "https://i.ibb.co/1RSjx0w/next-ecommerce.png",
+    "description": "House My Brand designs clothing for the young, the old & everyone in between – but most importantly, for the fashionable",
+    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "demo": "https://next-ecommcer.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "Next.js Template for SaaS",
+    "image": "https://i.ibb.co/2SZpCS8/next-sass.png",
+    "description": "Packed with all the key integrations you need for swift SaaS startup launch",
+    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "demo": "https://next-solid-temp.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "Next.js Template for Admin Dashboard",
+    "image": "https://i.ibb.co/4MvBVYC/admin.png",
+    "description": "Complete solution for admin dashboard.",
+    "tags": ["next", "tailwind", "styles-component", "emotions-css", "apex-chart"],
+    "demo": "https://shaon-admin-panel.vercel.app/"
+  },
+  {
+    "id": 7,
+    "name": "E-Commerce platform for grocery store to online shop",
+    "image": "https://i.ibb.co/1GCZf23/buniyadi.png",
+    "description": "A E-Commerce platform for grocery store to online shop with nextjs and tailwindcss",
+    "tags": ["next", "styles-component", "emotions-css", "bootstrap"],
+    "demo": "https://buniyadi.com/"
+  },
+  {
+    "id": 8,
+    "name": "Drag and Drop Gallery",
+    "image": "https://i.ibb.co/9bpy75Q/gallery.png",
+    "description": "Online Gallery for image drag and drop with nextjs and tailwindcss",
+    "tags": ["next", "ant-design", "tailwind"],
+    "demo": "https://shamirul-islam-ollyo-test.netlify.app/"
+  },
+  {
+    "id": 9,
+    "name": "Online Gaming Platform",
+    "image": "https://i.ibb.co/n3H2fBF/game.png",
+    "description": "Browser Based gaming platform with react and bootstrap",
+    "tags": ["react", "react-router-dom", "bootstrap"],
+    "demo": "https://shaongames.netlify.app/"
+  },
+  {
+    "id": 10,
+    "name": "Analytics Dashboard Landing Page",
+    "image": "https://i.ibb.co/Yf4C8z6/dashboard.png",
+    "description": "Analytics that transform your product inside-out with react and bootstrap",
+    "tags": ["react", "react-router-dom", "bootstrap"],
+    "demo": "https://maac1.netlify.app/"
+  },
+  {
+    "id": 11,
+    "name": "E-Commerce platform for cloths and electronics store to online shop",
+    "image": "https://i.ibb.co/PDMsfHC/e-commerce2.png",
+    "description": "A E-Commerce platform for cloths and electronics store to online shop with react and bootstrap",
+    "tags": ["react", "react-router-dom", "bootstrap"],
+    "demo": "https://shaonshop.netlify.app/"
+  },
+  {
+    "id": 12,
+    "name": "Browser based car driving game",
+    "image": "https://i.ibb.co/w6DT3s7/gmap.png",
+    "description": "Browser based car driving game with react and bootstrap and google map",
+    "tags": ["react", "react-router-dom", "bootstrap"],
+    "demo": "https://shaongmap.netlify.app/"
   }
 ]

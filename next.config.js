@@ -4,7 +4,9 @@ module.exports = {
       'res.cloudinary.com',
       'avatars.githubusercontent.com',
       'imgur.com',
-      'media.dev.to'
+      'media.dev.to',
+      'vercel.com',
+      'i.ibb.co'
     ],
   },
 };
