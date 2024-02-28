@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import Illustration from '../components/Illustration';
-import styles from '../styles/HomePage.module.css';
+import Link from "next/link";
+import Illustration from "../components/Illustration";
+import styles from "../styles/HomePage.module.css";
 
 export default function HomePage() {
   return (
@@ -24,12 +24,14 @@ export default function HomePage() {
           <Illustration className={styles.illustration} />
         </div>
       </div>
+
+   
     </>
   );
 }
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Home' },
+    props: { title: "Home" },
   };
 }

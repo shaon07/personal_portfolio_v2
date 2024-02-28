@@ -6,7 +6,8 @@ module.exports = {
       'imgur.com',
       'media.dev.to',
       'vercel.com',
-      'i.ibb.co'
+      'i.ibb.co',
+      'icons8.com'
     ],
   },
 };
