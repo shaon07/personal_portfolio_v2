@@ -26,6 +26,11 @@ const contactItems = [
     link: 'shamirul',
     href: 'https://github.com/shaon07softic',
   },
+  {
+    social: 'Facebook',
+    link: 'shaon',
+    href: 'https://www.facebook.com/alishaon.me/',
+  },
 ];
 
 const ContactCode = () => {
