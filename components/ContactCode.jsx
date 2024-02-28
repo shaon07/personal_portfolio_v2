@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    link: 'samshaon.vercel.app',
+    href: 'https://samshaon.vercel.app/',
   },
   {
     social: 'email',

@@ -20,7 +20,7 @@ export default function HomePage() {
             <Link href="/contact">
               <button className={styles.outlined}>Contact Me</button>
             </Link>
-            <Link href="https://drive.google.com/file/d/1g1_vIZkV3mvIFWtrWdbey-Rax08CK_Ld/view?usp=sharing" target="_blank">
+            <Link href="https://drive.google.com/file/d/1rmyaWqfeFWDCF_7pKBcluA-Kg9tscLDK/view?usp=drive_link" target="_blank">
               <button style={{marginLeft:"20px"}} className={styles.button}>Download CV</button>
             </Link>
           </div>
