@@ -33,7 +33,6 @@ export async function getStaticProps() {
 
   return {
     props: { title: 'Articles', articles: data },
-    revalidate: 60,
   };
 }
 
