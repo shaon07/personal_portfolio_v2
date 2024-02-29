@@ -111,10 +111,10 @@ const AboutPage = () => {
           gap: "10px",
         }}
       >
-        <h5>
+        <h4>
           2 Years of Experienced Frontend Developer | Expertise in React.js,
           Next.js, TypeScript, Redux, Tailwind and React Ecosystem
-        </h5>
+        </h4>
 
         <h5>
           Passionate about crafting exceptional user experiences through
