@@ -1,5 +1,29 @@
 [
   {
+    "id": 13,
+    "name": "Bit-Deposit User",
+    "image": "https://i.ibb.co/mqzPFrV/Screenshot-at-Mar-07-19-48-37.png",
+    "description": "Bit deposit is a familiar money transaction site for 1xBit bettors.",
+    "tags": ["next", "tailwind", "styles-component", "ant-design","scss","firebase"],
+    "demo": "https://dev-user.bitdeposit.org"
+  },
+  {
+    "id": 14,
+    "name": "Bit-Deposit Agent",
+    "image": "https://i.ibb.co/F5gBmZr/Screenshot-at-Mar-07-19-53-15.png",
+    "description": "Earn money by simply referring customers to our platform! With our affiliate program",
+    "tags": ["next", "tailwind", "styles-component", "ant-design","scss","firebase"],
+    "demo": "https://dev-agent.bitdeposit.org"
+  },
+  {
+    "id": 15,
+    "name": "Bit-Deposit Affiliate",
+    "image": "https://i.ibb.co/b5XWVtH/Screenshot-at-Mar-07-19-55-21.pngg",
+    "description": "Earn money by simply referring customers to our platform! With our affiliate program",
+    "tags": ["next", "tailwind", "styles-component", "ant-design","scss","firebase"],
+    "demo": "https://dev-affiliate.bitdeposit.org"
+  },
+  {
     "id": 1,
     "name": "Next Agency",
     "image": "https://i.ibb.co/q7tjwv5/image.png",
