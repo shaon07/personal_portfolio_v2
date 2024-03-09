@@ -1,7 +1,24 @@
 import ArticleCard from '../components/ArticleCard';
 import styles from '../styles/ArticlesPage.module.css';
+import { useEffect, useState } from 'react';
 
-const ArticlesPage = ({ articles }) => {
+const ArticlesPage = () => {
+
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+     fetch(
+      'https://dev.to/api/articles?username=shaon07',
+    ).then((res) => {
+      if (res.ok) {
+        return res.json();
+      }
+    }).then((data) => {
+      setArticles(data)
+    })
+  
+  },[])
+
   return (
     <>
       <h3>
@@ -24,16 +41,5 @@ const ArticlesPage = ({ articles }) => {
   );
 };
 
-export async function getStaticProps() {
-  const res = await fetch(
-    'https://dev.to/api/articles?username=shaon07',
-  );
-
-  const data = await res.json();
-
-  return {
-    props: { title: 'Articles', articles: data },
-  };
-}
 
 export default ArticlesPage;
