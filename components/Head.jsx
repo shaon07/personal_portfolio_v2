@@ -18,9 +18,8 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="A JavaScript developer building websites that you'd like to use."
       />
-      <meta property="og:image" content="https://ibb.co/BKgsF4B1" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="og:image" content="https://i.ibb.co/cXNTVbQm/dddd.png" />
+      <meta property="og:url" content="https://samshaon.vercel.app" />
     </Head>
   );
 };
