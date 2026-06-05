@@ -1,10 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import Head from "../components/Head";
 import "../styles/globals.css";
 import "../styles/themes.css";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  // Admin panel renders standalone, without the portfolio chrome.
+  const isAdmin = router.pathname.startsWith("/admin");
 
   useEffect(() => {
     if (localStorage.getItem("theme")) {
@@ -14,6 +18,15 @@ function MyApp({ Component, pageProps }) {
       );
     }
   }, []);
+
+  if (isAdmin) {
+    return (
+      <>
+        <Head title={`Admin | ${pageProps.title || "Dashboard"}`} />
+        <Component {...pageProps} />
+      </>
+    );
+  }
 
   return (
     <Layout>

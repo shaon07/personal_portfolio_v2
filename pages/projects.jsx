@@ -1,5 +1,5 @@
 import ProjectCard from '../components/ProjectCard';
-import { getProjects } from './api/projects';
+import { getProjects } from '../lib/projects';
 import styles from '../styles/ProjectsPage.module.css';
 
 const ProjectsPage = ({ projects }) => {
@@ -15,7 +15,8 @@ const ProjectsPage = ({ projects }) => {
   );
 };
 
-export async function getStaticProps() {
+// Server-rendered so admin CRUD changes appear immediately.
+export async function getServerSideProps() {
   const projects = getProjects();
 
   return {
