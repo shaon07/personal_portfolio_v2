@@ -17,7 +17,12 @@ const ProjectsPage = ({ projects }) => {
 
 // Server-rendered so admin CRUD changes appear immediately.
 export async function getServerSideProps() {
-  const projects = await getProjects();
+  let projects = [];
+  try {
+    projects = await getProjects();
+  } catch (err) {
+    console.error('[projects] failed to load:', err.message);
+  }
 
   return {
     props: { title: 'Projects', projects },
