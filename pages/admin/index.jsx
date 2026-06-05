@@ -380,10 +380,17 @@ export async function getServerSideProps({ req }) {
   if (!session) {
     return { redirect: { destination: '/admin/login', permanent: false } };
   }
+  let initialProjects = [];
+  try {
+    initialProjects = await getProjects();
+  } catch (err) {
+    console.error('[admin] failed to load projects:', err.message);
+  }
+
   return {
     props: {
       title: 'Dashboard',
-      initialProjects: await getProjects(),
+      initialProjects,
       user: { username: session.sub },
     },
   };
