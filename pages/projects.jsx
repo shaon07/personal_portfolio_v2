@@ -17,7 +17,7 @@ const ProjectsPage = ({ projects }) => {
 
 // Server-rendered so admin CRUD changes appear immediately.
 export async function getServerSideProps() {
-  const projects = getProjects();
+  const projects = await getProjects();
 
   return {
     props: { title: 'Projects', projects },

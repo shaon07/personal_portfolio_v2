@@ -383,7 +383,7 @@ export async function getServerSideProps({ req }) {
   return {
     props: {
       title: 'Dashboard',
-      initialProjects: getProjects(),
+      initialProjects: await getProjects(),
       user: { username: session.sub },
     },
   };
