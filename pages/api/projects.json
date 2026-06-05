@@ -4,7 +4,14 @@
     "name": "Bit-Deposit User",
     "image": "https://i.ibb.co/mqzPFrV/Screenshot-at-Mar-07-19-48-37.png",
     "description": "Bit deposit is a familiar money transaction site for 1xBit bettors.",
-    "tags": ["next", "tailwind", "styles-component", "ant-design","scss","firebase"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "ant-design",
+      "scss",
+      "firebase"
+    ],
     "demo": "https://dev-user.bitdeposit.org"
   },
   {
@@ -12,7 +19,14 @@
     "name": "Bit-Deposit Agent",
     "image": "https://i.ibb.co/F5gBmZr/Screenshot-at-Mar-07-19-53-15.png",
     "description": "Earn money by simply referring customers to our platform! With our affiliate program",
-    "tags": ["next", "tailwind", "styles-component", "ant-design","scss","firebase"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "ant-design",
+      "scss",
+      "firebase"
+    ],
     "demo": "https://dev-agent.bitdeposit.org"
   },
   {
@@ -20,7 +34,14 @@
     "name": "Bit-Deposit Affiliate",
     "image": "https://i.ibb.co/b5XWVtH/Screenshot-at-Mar-07-19-55-21.pngg",
     "description": "Earn money by simply referring customers to our platform! With our affiliate program",
-    "tags": ["next", "tailwind", "styles-component", "ant-design","scss","firebase"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "ant-design",
+      "scss",
+      "firebase"
+    ],
     "demo": "https://dev-affiliate.bitdeposit.org"
   },
   {
@@ -28,7 +49,12 @@
     "name": "Next Agency",
     "image": "https://i.ibb.co/q7tjwv5/image.png",
     "description": "A platform for domain and hosting services providers",
-    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "emotions-css"
+    ],
     "demo": "https://next-agency-two.vercel.app/"
   },
   {
@@ -36,7 +62,12 @@
     "name": "Next Shop Template",
     "image": "https://i.ibb.co/wCh7JFs/next-shop.png",
     "description": "E-commerce website for a shop owners",
-    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "emotions-css"
+    ],
     "demo": "https://next-shop-inky-rho.vercel.app/"
   },
   {
@@ -44,7 +75,12 @@
     "name": "Next Startup Template",
     "image": "https://i.ibb.co/rF8fk0W/next-start-up.png",
     "description": "Startup is free Next.js template for startups and SaaS business websites comes with all the essential pages, components, and sections you need to launch a complete business website",
-    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "emotions-css"
+    ],
     "demo": "https://next-startup-pn7y.vercel.app/"
   },
   {
@@ -52,7 +88,12 @@
     "name": "Next E-Commerce Template",
     "image": "https://i.ibb.co/1RSjx0w/next-ecommerce.png",
     "description": "House My Brand designs clothing for the young, the old & everyone in between – but most importantly, for the fashionable",
-    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "emotions-css"
+    ],
     "demo": "https://next-ecommcer.vercel.app/"
   },
   {
@@ -60,7 +101,12 @@
     "name": "Next.js Template for SaaS",
     "image": "https://i.ibb.co/2SZpCS8/next-sass.png",
     "description": "Packed with all the key integrations you need for swift SaaS startup launch",
-    "tags": ["next", "tailwind", "styles-component", "emotions-css"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "emotions-css"
+    ],
     "demo": "https://next-solid-temp.vercel.app/"
   },
   {
@@ -68,7 +114,13 @@
     "name": "Next.js Template for Admin Dashboard",
     "image": "https://i.ibb.co/4MvBVYC/admin.png",
     "description": "Complete solution for admin dashboard.",
-    "tags": ["next", "tailwind", "styles-component", "emotions-css", "apex-chart"],
+    "tags": [
+      "next",
+      "tailwind",
+      "styles-component",
+      "emotions-css",
+      "apex-chart"
+    ],
     "demo": "https://shaon-admin-panel.vercel.app/"
   },
   {
@@ -76,7 +128,12 @@
     "name": "E-Commerce platform for grocery store to online shop",
     "image": "https://i.ibb.co/1GCZf23/buniyadi.png",
     "description": "A E-Commerce platform for grocery store to online shop with nextjs and tailwindcss",
-    "tags": ["next", "styles-component", "emotions-css", "bootstrap"],
+    "tags": [
+      "next",
+      "styles-component",
+      "emotions-css",
+      "bootstrap"
+    ],
     "demo": "https://buniyadi.com/"
   },
   {
@@ -84,7 +141,11 @@
     "name": "Drag and Drop Gallery",
     "image": "https://i.ibb.co/9bpy75Q/gallery.png",
     "description": "Online Gallery for image drag and drop with nextjs and tailwindcss",
-    "tags": ["next", "ant-design", "tailwind"],
+    "tags": [
+      "next",
+      "ant-design",
+      "tailwind"
+    ],
     "demo": "https://shamirul-islam-ollyo-test.netlify.app/"
   },
   {
@@ -92,7 +153,11 @@
     "name": "Online Gaming Platform",
     "image": "https://i.ibb.co/n3H2fBF/game.png",
     "description": "Browser Based gaming platform with react and bootstrap",
-    "tags": ["react", "react-router-dom", "bootstrap"],
+    "tags": [
+      "react",
+      "react-router-dom",
+      "bootstrap"
+    ],
     "demo": "https://shaongames.netlify.app/"
   },
   {
@@ -100,7 +165,11 @@
     "name": "Analytics Dashboard Landing Page",
     "image": "https://i.ibb.co/Yf4C8z6/dashboard.png",
     "description": "Analytics that transform your product inside-out with react and bootstrap",
-    "tags": ["react", "react-router-dom", "bootstrap"],
+    "tags": [
+      "react",
+      "react-router-dom",
+      "bootstrap"
+    ],
     "demo": "https://maac1.netlify.app/"
   },
   {
@@ -108,7 +177,11 @@
     "name": "E-Commerce platform for cloths and electronics store to online shop",
     "image": "https://i.ibb.co/PDMsfHC/e-commerce2.png",
     "description": "A E-Commerce platform for cloths and electronics store to online shop with react and bootstrap",
-    "tags": ["react", "react-router-dom", "bootstrap"],
+    "tags": [
+      "react",
+      "react-router-dom",
+      "bootstrap"
+    ],
     "demo": "https://shaonshop.netlify.app/"
   },
   {
@@ -116,7 +189,11 @@
     "name": "Browser based car driving game",
     "image": "https://i.ibb.co/w6DT3s7/gmap.png",
     "description": "Browser based car driving game with react and bootstrap and google map",
-    "tags": ["react", "react-router-dom", "bootstrap"],
+    "tags": [
+      "react",
+      "react-router-dom",
+      "bootstrap"
+    ],
     "demo": "https://shaongmap.netlify.app/"
   }
 ]
