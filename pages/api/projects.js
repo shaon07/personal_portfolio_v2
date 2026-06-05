@@ -40,7 +40,8 @@ export default function handler(req, res) {
     if (body === null) {
       return res.status(400).json({ msg: 'Invalid JSON body' });
     }
-    const { project, error } = createProject(body);
+    const { project, error, readOnly } = createProject(body);
+    if (readOnly) return res.status(503).json({ msg: error });
     if (error) return res.status(400).json({ msg: error });
     return res.status(201).json(project);
   }

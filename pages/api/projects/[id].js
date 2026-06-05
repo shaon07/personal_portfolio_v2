@@ -38,16 +38,18 @@ export default function handler(req, res) {
     if (body === null) {
       return res.status(400).json({ msg: 'Invalid JSON body' });
     }
-    const { project, error, notFound } = updateProject(id, body);
+    const { project, error, notFound, readOnly } = updateProject(id, body);
     if (notFound) return res.status(404).json({ msg: error });
+    if (readOnly) return res.status(503).json({ msg: error });
     if (error) return res.status(400).json({ msg: error });
     return res.status(200).json(project);
   }
 
   // DELETE /api/projects/:id — remove.
   if (req.method === 'DELETE') {
-    const { project, error, notFound } = deleteProject(id);
+    const { project, error, notFound, readOnly } = deleteProject(id);
     if (notFound) return res.status(404).json({ msg: error });
+    if (readOnly) return res.status(503).json({ msg: error });
     if (error) return res.status(400).json({ msg: error });
     return res.status(200).json(project);
   }
