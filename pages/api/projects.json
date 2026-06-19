@@ -1,5 +1,13 @@
 [
   {
+    "id": 15,
+    "name": "RS-JS",
+    "image": "https://i.ibb.co.com/hJwxJpmw/calendri.png",
+    "description": "A modern scheduling platform — a Calendly-style app where users create event types, publish their availability, and let guests book meetings through a public link.",
+    "tags": ["Next.js", "Cleark", "DrizzleORM", "TursoDB"],
+    "demo": "https://calendri.vercel.app"
+  },
+  {
     "id": 14,
     "name": "RS-JS",
     "image": "https://i.ibb.co.com/MD7xFsjy/rs-js.png",
