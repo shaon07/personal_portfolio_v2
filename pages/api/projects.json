@@ -2,7 +2,7 @@
   {
     "id": 14,
     "name": "RS-JS",
-    "image": "https://ibb.co.com/vxNjsM6w",
+    "image": "https://i.ibb.co.com/MD7xFsjy/rs-js.png",
     "description": "High-performance Rust/WASM data engine for JavaScript. Deserialize once, query many times — no re-serialization overhead.",
     "tags": ["JavaScript", "Rust", "WASM"],
     "demo": "https://rs-js.vercel.app"
@@ -10,7 +10,7 @@
   {
     "id": 15,
     "name": "API-Client",
-    "image": "https://ibb.co.com/mCTsLrsC",
+    "image": "https://i.ibb.co.com/5xTTCg4q/api-client.png",
     "description": "A alternative of postman. completely runs on browser.",
     "tags": ["React", "Next"],
     "demo": "https://next-postman.vercel.app/"
