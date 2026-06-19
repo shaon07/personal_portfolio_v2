@@ -7,7 +7,8 @@ module.exports = {
       'media.dev.to',
       'vercel.com',
       'i.ibb.co',
-      'icons8.com'
+      'icons8.com',
+      'i.ibb.co.com'
     ],
   },
 };
